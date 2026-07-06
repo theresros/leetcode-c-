@@ -1,0 +1,10 @@
+ATOI FUNCTION
+
+
+1)string s = "123";
+
+// Wrong
+atoi(s);      // Error
+
+// Correct
+atoi(s.c_str());
