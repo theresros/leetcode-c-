@@ -1,0 +1,7 @@
+| Code                | Meaning                        | Result (for `{3,8,2,10,5}`) |
+| ------------------- | ------------------------------ | --------------------------- |
+| `nums.begin()`      | Iterator to first element      | Points to `3`               |
+| `nums.end()`        | Iterator past the last element | Past `5`                    |
+| `max_element(...)`  | Iterator to largest element    | Points to `10`              |
+| `*it`               | Value at that iterator         | `10`                        |
+| `it - nums.begin()` | Distance from the beginning    | `3` (the index)             |
